@@ -26,7 +26,7 @@ public class Main {
         int answer = 0;
 
         Queue<Subin> queue = new LinkedList<>();
-        Set<Integer> visited = new HashSet<>();
+        boolean[] visited = new boolean[100001];
         DirectionAction[] actions = {
                 (position) -> position + 1,
                 (position) -> position - 1,
@@ -46,10 +46,10 @@ public class Main {
                 int movedPosition = actions[i].perform(subin.position);
 
                 if (movedPosition < 0 || movedPosition > 100000) continue;
-                if (visited.contains(movedPosition)) continue;
+                if (visited[movedPosition]) continue;
 
                 queue.add(new Subin(movedPosition, subin.moveCount+1));
-                visited.add(movedPosition);
+                visited[movedPosition] = true;
             }
         }
 
