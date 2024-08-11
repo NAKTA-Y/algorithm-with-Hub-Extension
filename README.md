@@ -12,11 +12,13 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0217-contains-duplicate](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0238-product-of-array-except-self) |
+| [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -31,6 +33,7 @@
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0217-contains-duplicate) |
+| [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -39,4 +42,13 @@
 |  |
 | ------- |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0153-find-minimum-in-rotated-sorted-array) |
+| [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
+## Math
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
