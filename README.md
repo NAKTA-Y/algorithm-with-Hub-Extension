@@ -13,12 +13,14 @@
 | [0217-contains-duplicate](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
+| [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
