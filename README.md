@@ -71,5 +71,10 @@
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0141-linked-list-cycle) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->
