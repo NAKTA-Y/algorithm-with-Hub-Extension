@@ -16,6 +16,7 @@
 | [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0287-find-the-duplicate-number) |
+| [0303-range-sum-query-immutable](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0303-range-sum-query-immutable) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 ## Hash Table
@@ -47,6 +48,7 @@
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0303-range-sum-query-immutable) |
 ## Binary Search
 |  |
 | ------- |
@@ -92,4 +94,8 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0070-climbing-stairs) |
+## Design
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
