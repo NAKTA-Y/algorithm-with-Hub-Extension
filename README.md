@@ -35,6 +35,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0152-maximum-product-subarray) |
 ## Sorting
@@ -55,6 +56,7 @@
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
 ## Bit Manipulation
 |  |
@@ -86,4 +88,8 @@
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
