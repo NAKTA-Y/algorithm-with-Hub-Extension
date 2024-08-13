@@ -39,12 +39,7 @@ class Solution {
             sb.append(number);
         }
 
-        try {
-            int result = Integer.parseInt(sb.toString());
-            if (result == n) return -1;
-            else return result;
-        } catch (NumberFormatException e) {
-            return -1;
-        }
+        long answer = Long.parseLong(sb.toString());
+        return (answer == n || answer > Integer.MAX_VALUE) ? -1 : (int) answer;
     }
 }
