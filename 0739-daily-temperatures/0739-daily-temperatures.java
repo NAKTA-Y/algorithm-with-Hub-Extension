@@ -1,7 +1,16 @@
+class Temp {
+    int temp;
+    int index;
+
+    Temp (int temp, int index) {
+        this.temp = temp;
+        this.index = index;
+    }
+}
+
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
-        Stack<Integer> valueStack = new Stack<>();
-        Stack<Integer> indexStack = new Stack<>();
+        Stack<Temp> stack = new Stack<>();
 
         int len = temperatures.length;
         int[] answer = new int[len];
@@ -9,17 +18,15 @@ class Solution {
         for (int i = len-1; i >= 0; i--) {
             int days = 0;
             
-            while (!valueStack.isEmpty() && valueStack.peek() <= temperatures[i]) {
-                valueStack.pop();
-                int index = indexStack.pop();
+            while (!stack.isEmpty() && stack.peek().temp <= temperatures[i]) {
+                Temp pop = stack.pop();
 
-                days += answer[index];
+                days += answer[pop.index];
             }
 
-            answer[i] = valueStack.isEmpty() ? 0 : days + 1;
+            answer[i] = stack.isEmpty() ? 0 : days + 1;
 
-            valueStack.push(temperatures[i]);
-            indexStack.push(i);
+            stack.push(new Temp(temperatures[i], i));
         }
 
         return answer;
