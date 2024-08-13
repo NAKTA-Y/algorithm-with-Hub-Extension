@@ -64,6 +64,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
+| [0556-next-greater-element-iii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0556-next-greater-element-iii) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -78,6 +79,7 @@
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
 | [0283-move-zeroes](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0287-find-the-duplicate-number) |
+| [0556-next-greater-element-iii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0556-next-greater-element-iii) |
 | [0908-middle-of-the-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0908-middle-of-the-linked-list) |
 ## Linked List
 |  |
@@ -113,4 +115,8 @@
 | [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0739-daily-temperatures) |
+## String
+|  |
+| ------- |
+| [0556-next-greater-element-iii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0556-next-greater-element-iii) |
 <!---LeetCode Topics End-->
