@@ -19,6 +19,7 @@
 | [0303-range-sum-query-immutable](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0303-range-sum-query-immutable) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -28,6 +29,7 @@
 | [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -92,6 +94,7 @@
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
+| [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 ## Memoization
 |  |
 | ------- |
@@ -100,4 +103,8 @@
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0303-range-sum-query-immutable) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
