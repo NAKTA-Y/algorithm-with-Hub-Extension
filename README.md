@@ -90,6 +90,7 @@
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0021-merge-two-sorted-lists) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0141-linked-list-cycle](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
 | [0908-middle-of-the-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0908-middle-of-the-linked-list) |
@@ -104,6 +105,7 @@
 | [0020-valid-parentheses](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0084-largest-rectangle-in-histogram) |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
 | [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0503-next-greater-element-ii) |
@@ -138,4 +140,16 @@
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0937-online-stock-span) |
+## Tree
+|  |
+| ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Depth-First Search
+|  |
+| ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
+## Binary Tree
+|  |
+| ------- |
+| [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
 <!---LeetCode Topics End-->
