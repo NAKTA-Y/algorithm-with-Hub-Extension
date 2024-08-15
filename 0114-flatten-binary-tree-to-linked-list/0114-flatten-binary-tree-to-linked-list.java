@@ -14,27 +14,16 @@
  * }
  */
 class Solution {
+    private TreeNode child = null;
+
     public void flatten(TreeNode root) {
-        Deque<TreeNode> stack = new ArrayDeque<>();
-        savePreOrder(root, stack);
+        if (root == null) return;
+        
+        flatten(root.right);
+        flatten(root.left);
 
-        if (stack.isEmpty() || stack.size() == 1) return;
-
-        TreeNode child = stack.pop();
-        while (!stack.isEmpty()) {
-            TreeNode parent = stack.pop();
-            parent.right = child;
-            parent.left = null;
-            child = parent;
-        }
-    }
-
-    public void savePreOrder(TreeNode cursor, Deque<TreeNode> stack) {
-        if (cursor == null) return;
-
-        stack.push(cursor);
-
-        savePreOrder(cursor.left, stack);
-        savePreOrder(cursor.right, stack);
+        root.right = child;
+        root.left = null;
+        child = root;
     }
 }
