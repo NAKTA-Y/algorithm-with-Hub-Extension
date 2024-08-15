@@ -108,6 +108,7 @@
 | [0503-next-greater-element-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0937-online-stock-span) |
+| [1045-check-if-word-is-valid-after-substitutions](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 ## Memoization
 |  |
 | ------- |
@@ -130,6 +131,7 @@
 |  |
 | ------- |
 | [0556-next-greater-element-iii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0556-next-greater-element-iii) |
+| [1045-check-if-word-is-valid-after-substitutions](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 ## Data Stream
 |  |
 | ------- |
