@@ -101,6 +101,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0084-largest-rectangle-in-histogram) |
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
@@ -130,6 +131,7 @@
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0020-valid-parentheses) |
 | [0556-next-greater-element-iii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0556-next-greater-element-iii) |
 | [1045-check-if-word-is-valid-after-substitutions](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 ## Data Stream
