@@ -101,6 +101,7 @@
 | [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0937-online-stock-span) |
 ## Memoization
 |  |
 | ------- |
@@ -109,14 +110,20 @@
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0303-range-sum-query-immutable) |
+| [0937-online-stock-span](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0937-online-stock-span) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0937-online-stock-span) |
 ## String
 |  |
 | ------- |
 | [0556-next-greater-element-iii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0556-next-greater-element-iii) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
