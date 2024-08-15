@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0001-two-sum) |
+| [0042-trapping-rain-water](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0136-single-number) |
@@ -39,6 +40,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -75,6 +77,7 @@
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0042-trapping-rain-water](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0042-trapping-rain-water) |
 | [0141-linked-list-cycle](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
 | [0283-move-zeroes](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0283-move-zeroes) |
@@ -97,6 +100,7 @@
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0042-trapping-rain-water) |
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
 | [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0503-next-greater-element-ii) |
@@ -114,6 +118,7 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0739-daily-temperatures) |
