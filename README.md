@@ -102,6 +102,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0394-decode-string) |
 ## Stack
 |  |
 | ------- |
@@ -112,6 +113,7 @@
 | [0143-reorder-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0143-reorder-list) |
 | [0155-min-stack](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0234-palindrome-linked-list) |
+| [0394-decode-string](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0739-daily-temperatures) |
@@ -140,6 +142,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0020-valid-parentheses) |
+| [0394-decode-string](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0394-decode-string) |
 | [0556-next-greater-element-iii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0556-next-greater-element-iii) |
 | [1045-check-if-word-is-valid-after-substitutions](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1045-check-if-word-is-valid-after-substitutions) |
 ## Data Stream
