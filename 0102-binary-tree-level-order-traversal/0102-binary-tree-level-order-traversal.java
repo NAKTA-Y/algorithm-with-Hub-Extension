@@ -23,29 +23,19 @@ class Solution {
 
         bfs.add(root);
 
-        int childCount = 1;
-        int nextCount = 2;
-        int count = 0;
         while (!bfs.isEmpty()) {
-            TreeNode node = bfs.poll();
-            if (node == null) continue;
-            else {
+            int count = bfs.size();
+            vals = new ArrayList<>();
+
+            for (int i = 0; i < count; i++) {
+                TreeNode node = bfs.poll();
                 vals.add(node.val);
-                count++;
 
-                if (node.left == null) nextCount--;
-                if (node.right == null) nextCount--; 
-                bfs.add(node.left);
-                bfs.add(node.right);
-
-                if (count == childCount) {
-                    result.add(vals);
-                    vals = new ArrayList<>();
-                    count = 0;
-                    childCount = nextCount;
-                    nextCount *= 2;
-                }
+                if (node.left != null) bfs.add(node.left);
+                if (node.right != null) bfs.add(node.right);
             }
+
+            result.add(vals);
         }
 
         return result;
