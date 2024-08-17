@@ -153,22 +153,26 @@
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0102-binary-tree-level-order-traversal) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0111-minimum-depth-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0102-binary-tree-level-order-traversal) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0102-binary-tree-level-order-traversal) |
+| [0111-minimum-depth-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 <!---LeetCode Topics End-->
