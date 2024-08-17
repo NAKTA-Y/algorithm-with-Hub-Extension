@@ -7,38 +7,25 @@ class Solution {
         int w = grid[0].length;
         int count = 0;
 
-        boolean[][] visited = new boolean[h][w];
-
         for (int i = 0; i < h; i++) {
             for (int j = 0; j < w; j++) {
-                if (visited[i][j] || grid[i][j] == '0') continue;
-                visited[i][j] = true;
-                queue.add(new int[] {i, j});
-                bfs(h, w, grid, visited);
-                count++;
+                if (grid[i][j] == '1') {
+                    dfs(i, j, h, w, grid);
+                    count++;
+                }
             }
         }
 
         return count;
     }
 
-    public void bfs(int h, int w, char[][] grid, boolean[][] visited) {
-        while (!queue.isEmpty()) {
-            int[] pos = queue.poll();
-            int x = pos[0];
-            int y = pos[1];
+    public void dfs(int x, int y, int h, int w, char[][] grid) {
+        if (x < 0 || y < 0 || x >= h || y >= w || grid[x][y] != '1') return;
 
-            for (int i = 0; i < 4; i++) {
-                int moveX = x + directions[i][0];
-                int moveY = y + directions[i][1];
-
-                if (moveX < 0 || moveY < 0 || moveX >= h || moveY >= w || grid[moveX][moveY] != '1' || visited[moveX][moveY]) {
-                    continue;
-                }
-
-                queue.add(new int[] {moveX, moveY});
-                visited[moveX][moveY] = true;
-            }
-        }
+        grid[x][y] = '0';
+        dfs(x+1, y, h, w, grid);
+        dfs(x-1, y, h, w, grid);
+        dfs(x, y+1, h, w, grid);
+        dfs(x, y-1, h, w, grid);
     }
 }
