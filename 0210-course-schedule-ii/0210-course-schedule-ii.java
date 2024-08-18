@@ -1,7 +1,5 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        System.gc();
-
         int[] degrees = new int[numCourses];
         int[] order = new int[numCourses];
         Deque<Integer> queue = new ArrayDeque<>();
