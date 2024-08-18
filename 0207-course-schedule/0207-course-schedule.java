@@ -1,38 +1,40 @@
 class Solution {
-    public boolean canFinish(int numCourses, int[][] prerequisites) {
-        int count = 0;
-        List<Integer>[] graph = new ArrayList[numCourses];
-        Deque<Integer> queue = new ArrayDeque<>();
-        int[] degree = new int[numCourses];
+    public boolean canFinish(int n, int[][] prerequisites) {
+        List<Integer>[] adj = new List[n];
+        int[] indegree = new int[n];
+        List<Integer> ans = new ArrayList<>();
 
-        for (int i = 0; i < numCourses; i++) {
-            graph[i] = new ArrayList<>();
+        for (int[] pair : prerequisites) {
+            int course = pair[0];
+            int prerequisite = pair[1];
+            if (adj[prerequisite] == null) {
+                adj[prerequisite] = new ArrayList<>();
+            }
+            adj[prerequisite].add(course);
+            indegree[course]++;
         }
 
-        for (int[] prerequisite : prerequisites) {
-            graph[prerequisite[0]].add(prerequisite[1]);
-            degree[prerequisite[1]]++;
-        }
-
-        for (int i = 0; i < degree.length; i++) {
-            if (degree[i] == 0) {
-                queue.add(i);
-                count++;
+        Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            if (indegree[i] == 0) {
+                queue.offer(i);
             }
         }
 
         while (!queue.isEmpty()) {
-            int course = queue.poll();
+            int current = queue.poll();
+            ans.add(current);
 
-            for (int shouldFinishedCourse : graph[course]) {
-                degree[shouldFinishedCourse]--;
-                if (degree[shouldFinishedCourse] == 0) {
-                    count++;
-                    queue.add(shouldFinishedCourse);
+            if (adj[current] != null) {
+                for (int next : adj[current]) {
+                    indegree[next]--;
+                    if (indegree[next] == 0) {
+                        queue.offer(next);
+                    }
                 }
             }
         }
 
-        return count == numCourses;
+        return ans.size() == n;
     }
 }
