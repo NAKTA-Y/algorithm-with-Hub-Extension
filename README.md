@@ -166,6 +166,7 @@
 | [0200-number-of-islands](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0310-minimum-height-trees) |
 | [0417-pacific-atlantic-water-flow](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0417-pacific-atlantic-water-flow) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Binary Tree
@@ -183,6 +184,7 @@
 | [0200-number-of-islands](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0310-minimum-height-trees) |
 | [0417-pacific-atlantic-water-flow](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0417-pacific-atlantic-water-flow) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Matrix
@@ -199,9 +201,11 @@
 | ------- |
 | [0207-course-schedule](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0310-minimum-height-trees) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0210-course-schedule-ii) |
+| [0310-minimum-height-trees](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0310-minimum-height-trees) |
 <!---LeetCode Topics End-->
