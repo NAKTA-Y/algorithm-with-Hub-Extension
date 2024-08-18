@@ -5,9 +5,9 @@ class Solution {
         }
 
         int[] degrees = new int[numCourses];
+        int[] order = new int[numCourses];
         Deque<Integer> queue = new ArrayDeque<>();
         Map<Integer, List<Integer>> graph = new HashMap<>();
-        List<Integer> order = new ArrayList<>();
 
         for (int[] prerequisite : prerequisites) {
             List<Integer> edges = graph.getOrDefault(prerequisite[1], new ArrayList<>());
@@ -17,28 +17,23 @@ class Solution {
         }
 
         for (int i = 0; i < degrees.length; i++) {
-            if (degrees[i] == 0) {
-                order.add(i);
-                queue.add(i);
-            }
+            if (degrees[i] == 0) queue.add(i);
         }
 
+        int index = 0;
         while (!queue.isEmpty()) {
             int course = queue.poll();
+            order[index++] = course;
             if (graph.containsKey(course)) {
                 for (int canTakeCourse : graph.get(course)) {
                     degrees[canTakeCourse]--;
                     if (degrees[canTakeCourse] == 0) {
-                        order.add(canTakeCourse);
                         queue.add(canTakeCourse);
                     }
                 }
             }
         }
 
-        if (order.size() == numCourses)
-            return order.stream().mapToInt(Integer::intValue).toArray();
-        else
-            return new int[]{};
+        return index == numCourses ? order : new int[0];
     }
 }
