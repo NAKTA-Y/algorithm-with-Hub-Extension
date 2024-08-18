@@ -1,5 +1,6 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
+        System.gc();
         if (prerequisites.length == 0) {
             return IntStream.range(0, numCourses).toArray();
         }
