@@ -11,62 +11,57 @@ class Solution {
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         if (k == 0) return Collections.singletonList(target.val);
 
-        Map<Integer, Set<Integer>> adj = new HashMap<>();
+        Map<Integer, TreeNode> parent = new HashMap<>();
         Deque<TreeNode> treeQueue = new ArrayDeque<>();
         List<Integer> result = new ArrayList<>();
 
         treeQueue.add(root);
-        Set<Integer> rootSet = new HashSet<>();
-        adj.put(root.val, rootSet);
         
         while (!treeQueue.isEmpty()) {
             TreeNode node = treeQueue.poll();
-            Set<Integer> parentSet = adj.get(node.val);
 
             if (node.left != null) {
-                Set<Integer> leftSet = new HashSet<>();
-                TreeNode left = node.left;
-
-                parentSet.add(left.val);
-                leftSet.add(node.val);
-
-                adj.put(left.val, leftSet);
-                treeQueue.add(left);
+                parent.put(node.left.val, node);
+                treeQueue.add(node.left);
             }
 
             if (node.right != null) {
-                Set<Integer> rightSet = new HashSet<>();
-                TreeNode right = node.right;
-
-                parentSet.add(right.val);
-                rightSet.add(node.val);
-                
-                adj.put(right.val, rightSet);
-                treeQueue.add(right);
+                parent.put(node.right.val, node);
+                treeQueue.add(node.right);
             }
         }
 
-        Deque<Integer> queue = new ArrayDeque<>();
         Set<Integer> visited = new HashSet<>();
-        queue.add(target.val);
-        int depth = 1;
+        treeQueue.add(target);
 
-        while (!queue.isEmpty()) {
-            int size = queue.size();
+        while (k > 0 && !treeQueue.isEmpty()) {
+            int size = treeQueue.size();
 
             for (int i = 0; i < size; i++) {
-                int val = queue.poll();
-                visited.add(val);
+                TreeNode node = treeQueue.poll();
+                visited.add(node.val);
 
-                for (int connect : adj.get(val)) {
-                    if (visited.contains(connect)) continue;
-                    queue.add(connect);
+                if (node.left != null && !visited.contains(node.left.val)) {
+                    treeQueue.add(node.left);
                 }
+
+                if (node.right != null && !visited.contains(node.right.val)) {
+                    treeQueue.add(node.right);
+                }
+
+                if (parent.containsKey(node.val) && !visited.contains(parent.get(node.val).val)) {
+                    treeQueue.add(parent.get(node.val));
+                }
+
             }
 
-            if (depth++ == k) break;
+            k--;
         }
 
-        return new ArrayList(queue);
+        for (TreeNode node : treeQueue) {
+            result.add(node.val);
+        }
+
+        return result;
     }
 }
