@@ -1,69 +1,67 @@
-import java.util.*;
-
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
 class Solution {
-    public void getParentsByBFS(Map<TreeNode, TreeNode> parent, TreeNode root) {
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        while (!queue.isEmpty()) {
-            int n = queue.size();
-            while (n-- > 0) {
-                TreeNode curr = queue.poll();
-                if (curr.left != null) {
-                    parent.put(curr.left, curr);
-                    queue.offer(curr.left);
-                }
-                if (curr.right != null) {
-                    parent.put(curr.right, curr);
-                    queue.offer(curr.right);
-                }
-            }
-        }
-    }
-
-    public void getParentsByDFS(Map<TreeNode, TreeNode> parent, TreeNode root) {
-        if (root == null)
-            return;
-        if (root.left != null)
-            parent.put(root.left, root);
-        if (root.right != null)
-            parent.put(root.right, root);
-        getParentsByDFS(parent, root.left);
-        getParentsByDFS(parent, root.right);
-    }
-
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        Map<TreeNode, TreeNode> parent = new HashMap<>();
-        getParentsByDFS(parent, root);
-        Queue<TreeNode> queue = new LinkedList<>();
-        Map<TreeNode, Boolean> visited = new HashMap<>();
-        visited.put(target, true);
-        queue.offer(target);
-        int level = 0;
-        while (!queue.isEmpty()) {
-            int n = queue.size();
-            if (level == k)
-                break;
-            level++;
-            while (n-- > 0) {
-                TreeNode curr = queue.poll();
-                if (curr.left != null && !visited.containsKey(curr.left)) {
-                    visited.put(curr.left, true);
-                    queue.offer(curr.left);
-                }
-                if (curr.right != null && !visited.containsKey(curr.right)) {
-                    visited.put(curr.right, true);
-                    queue.offer(curr.right);
-                }
-                if (parent.containsKey(curr) && !visited.containsKey(parent.get(curr))) {
-                    visited.put(parent.get(curr), true);
-                    queue.offer(parent.get(curr));
-                }
+        if (k == 0) return Collections.singletonList(target.val);
+
+        Map<Integer, TreeNode> parent = new HashMap<>();
+        Deque<TreeNode> treeQueue = new ArrayDeque<>();
+        List<Integer> result = new ArrayList<>();
+
+        treeQueue.add(root);
+        
+        while (!treeQueue.isEmpty()) {
+            TreeNode node = treeQueue.poll();
+
+            if (node.left != null) {
+                parent.put(node.left.val, node);
+                treeQueue.add(node.left);
+            }
+
+            if (node.right != null) {
+                parent.put(node.right.val, node);
+                treeQueue.add(node.right);
             }
         }
-        List<Integer> ans = new ArrayList<>();
-        while (!queue.isEmpty()) {
-            ans.add(queue.poll().val);
+
+        Set<Integer> visited = new HashSet<>();
+        treeQueue.add(target);
+
+        while (k > 0 && !treeQueue.isEmpty()) {
+            int size = treeQueue.size();
+
+            for (int i = 0; i < size; i++) {
+                TreeNode node = treeQueue.poll();
+                visited.add(node.val);
+
+                if (node.left != null && !visited.contains(node.left.val)) {
+                    treeQueue.add(node.left);
+                }
+
+                if (node.right != null && !visited.contains(node.right.val)) {
+                    treeQueue.add(node.right);
+                }
+
+                if (parent.containsKey(node.val) && !visited.contains(parent.get(node.val).val)) {
+                    treeQueue.add(parent.get(node.val));
+                }
+
+            }
+
+            k--;
         }
-        return ans;
+
+        for (TreeNode node : treeQueue) {
+            result.add(node.val);
+        }
+
+        return result;
     }
 }
