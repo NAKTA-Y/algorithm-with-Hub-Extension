@@ -22,9 +22,12 @@ class Solution {
 
     public void dfs(TreeNode root, int low, int high) {
         if (root == null) return;
-        if (low <= root.val && high >= root.val) sum += root.val;
-
-        dfs(root.left, low, high);
-        dfs(root.right, low, high);
+        else if (low > root.val) dfs(root.right, low, high);
+        else if (high < root.val) dfs(root.left, low, high);
+        else {
+            sum += root.val;
+            dfs(root.left, low, high);
+            dfs(root.right, low, high);
+        } 
     }
 }
