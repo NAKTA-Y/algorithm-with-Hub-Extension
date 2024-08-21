@@ -164,6 +164,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0975-range-sum-of-bst) |
 | [1254-deepest-leaves-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1254-deepest-leaves-sum) |
 ## Depth-First Search
 |  |
@@ -179,6 +180,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0975-range-sum-of-bst) |
 | [1254-deepest-leaves-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1254-deepest-leaves-sum) |
 ## Binary Tree
 |  |
@@ -190,6 +192,7 @@
 | [0543-diameter-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0975-range-sum-of-bst) |
 | [1254-deepest-leaves-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1254-deepest-leaves-sum) |
 ## Breadth-First Search
 |  |
@@ -230,4 +233,8 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0062-unique-paths) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0975-range-sum-of-bst](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0975-range-sum-of-bst) |
 <!---LeetCode Topics End-->
