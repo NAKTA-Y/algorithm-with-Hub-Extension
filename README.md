@@ -30,6 +30,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0001-two-sum) |
+| [0127-word-ladder](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0127-word-ladder) |
 | [0141-linked-list-cycle](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0141-linked-list-cycle) |
 | [0217-contains-duplicate](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0268-missing-number) |
@@ -147,6 +148,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0020-valid-parentheses) |
+| [0127-word-ladder](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0127-word-ladder) |
 | [0394-decode-string](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0394-decode-string) |
 | [0556-next-greater-element-iii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0556-next-greater-element-iii) |
 | [1045-check-if-word-is-valid-after-substitutions](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1045-check-if-word-is-valid-after-substitutions) |
@@ -199,6 +201,7 @@
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0102-binary-tree-level-order-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0111-minimum-depth-of-binary-tree) |
+| [0127-word-ladder](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0207-course-schedule) |
