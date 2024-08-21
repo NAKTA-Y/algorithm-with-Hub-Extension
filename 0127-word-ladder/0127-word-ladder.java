@@ -1,37 +1,35 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> set = new HashSet<>(wordList);
-        if(!set.contains(endWord)) return 0;
-        
-        Queue<String> queue = new LinkedList<>();
-        queue.add(beginWord);
-        
+        Deque<String> queue = new ArrayDeque<>();
         Set<String> visited = new HashSet<>();
+        int count = 1;
+
         queue.add(beginWord);
-        
-        int changes = 1;
-        
-        while(!queue.isEmpty()){
-            int size = queue.size();
-            for(int i = 0; i < size; i++){
+        while (!queue.isEmpty()) {
+            int queueSize = queue.size();
+
+            for (int i = 0; i < queueSize; i++) {
                 String word = queue.poll();
-                if(word.equals(endWord)) return changes;
-                
-                for(int j = 0; j < word.length(); j++){
-                    for(int k = 'a'; k <= 'z'; k++){
-                        char arr[] = word.toCharArray();
-                        arr[j] = (char) k;
-                        
-                        String str = new String(arr);
-                        if(set.contains(str) && !visited.contains(str)){
-                            queue.add(str);
+                if (word.equals(endWord)) return count;
+
+                for (int j = 0; j < word.length(); j++) {
+                    char[] charArray = word.toCharArray();
+                    for (char c = 'a'; c <= 'z'; c++) {
+                        charArray[j] = c;
+
+                        String str = String.valueOf(charArray);
+                        if (set.contains(str) && !visited.contains(str)) {
                             visited.add(str);
+                            queue.add(str);
                         }
                     }
                 }
             }
-            ++changes;
+
+            count++;
         }
+
         return 0;
     }
 }
