@@ -14,24 +14,19 @@
  * }
  */
 class Solution {
+    List<Integer> result = new ArrayList<>();
+
     public List<Integer> rightSideView(TreeNode root) {
-        Deque<TreeNode> queue = new ArrayDeque<>();
-        List<Integer> result = new ArrayList<>();
-
-        if (root != null) queue.add(root);
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-
-            result.add(queue.peek().val);
-
-            for (int i = 0; i < size; i++) {
-                TreeNode node = queue.poll();
-
-                if (node.right != null) queue.add(node.right);
-                if (node.left != null) queue.add(node.left);
-            }
-        }
-
+        rightView(root, 0);
         return result;
+    }
+
+    public void rightView(TreeNode node, int depth) {
+        if (node == null) return;
+
+        if (result.size() <= depth) result.add(node.val);
+
+        rightView(node.right, depth+1);
+        rightView(node.left, depth+1);
     }
 }
