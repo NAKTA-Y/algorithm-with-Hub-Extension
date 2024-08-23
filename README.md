@@ -26,6 +26,7 @@
 | [0496-next-greater-element-i](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0739-daily-temperatures) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Hash Table
 |  |
 | ------- |
@@ -210,12 +211,14 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0417-pacific-atlantic-water-flow) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1254-deepest-leaves-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1254-deepest-leaves-sum) |
 ## Matrix
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0417-pacific-atlantic-water-flow) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Union Find
 |  |
 | ------- |
