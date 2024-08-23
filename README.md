@@ -51,6 +51,7 @@
 | [0062-unique-paths](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0152-maximum-product-subarray) |
 ## Sorting
 |  |
@@ -163,6 +164,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0102-binary-tree-level-order-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -174,6 +176,7 @@
 | ------- |
 | [0111-minimum-depth-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0207-course-schedule) |
@@ -191,6 +194,7 @@
 | [0102-binary-tree-level-order-traversal](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0102-binary-tree-level-order-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
