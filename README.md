@@ -141,6 +141,7 @@
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0155-min-stack) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0303-range-sum-query-immutable) |
 | [0937-online-stock-span](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0937-online-stock-span) |
 ## Monotonic Stack
@@ -157,6 +158,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0020-valid-parentheses) |
 | [0127-word-ladder](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0127-word-ladder) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0394-decode-string](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0399-evaluate-division) |
 | [0556-next-greater-element-iii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0556-next-greater-element-iii) |
@@ -174,6 +176,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0199-binary-tree-right-side-view) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -191,6 +194,7 @@
 | [0200-number-of-islands](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0210-course-schedule-ii) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0310-minimum-height-trees) |
 | [0399-evaluate-division](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0399-evaluate-division) |
 | [0417-pacific-atlantic-water-flow](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0417-pacific-atlantic-water-flow) |
@@ -209,6 +213,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0199-binary-tree-right-side-view) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -225,6 +230,7 @@
 | [0200-number-of-islands](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0210-course-schedule-ii) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0310-minimum-height-trees](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0310-minimum-height-trees) |
 | [0322-coin-change](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0399-evaluate-division) |
