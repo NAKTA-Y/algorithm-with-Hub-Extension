@@ -53,4 +53,14 @@ class Solution {
 
         return answer == 1;
     }
+
+    public static void main(String[] args) {
+        String begin = "hit";
+        String target = "cog";
+        String[] words = {"hot", "dot", "dog", "lot", "log"};
+
+        int answer = solution(begin, target, words);
+
+        System.out.println(answer);
+    }
 }
