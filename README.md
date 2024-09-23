@@ -8,6 +8,7 @@
 | [0001-two-sum](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0001-two-sum) |
 | [0042-trapping-rain-water](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0053-maximum-subarray) |
+| [0079-word-search](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0084-largest-rectangle-in-histogram) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0136-single-number) |
@@ -166,6 +167,7 @@
 | [0017-letter-combinations-of-a-phone-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0127-word-ladder) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0394-decode-string](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0394-decode-string) |
@@ -253,6 +255,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0417-pacific-atlantic-water-flow) |
 | [0854-making-a-large-island](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0854-making-a-large-island) |
@@ -295,4 +298,5 @@
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/NAKTA-Y/algorithm-with-Hub-Extension/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
