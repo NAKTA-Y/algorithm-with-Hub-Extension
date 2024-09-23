@@ -1,24 +1,48 @@
 class Solution {
-    public boolean exist(char[][] board, String word) {
-    char[] w = word.toCharArray();
-    for (int y=0; y<board.length; y++) {
-    	for (int x=0; x<board[y].length; x++) {
-    		if (exist(board, y, x, w, 0)) return true;
-    	}
-    }
-    return false;
-}
+    public boolean isPossible = false;
+    public int height;
+    public int width;
 
-private boolean exist(char[][] board, int y, int x, char[] word, int i) {
-	if (i == word.length) return true;
-	if (y<0 || x<0 || y == board.length || x == board[y].length) return false;
-	if (board[y][x] != word[i]) return false;
-	board[y][x] ^= 256;
-	boolean exist = exist(board, y, x+1, word, i+1)
-		|| exist(board, y, x-1, word, i+1)
-		|| exist(board, y+1, x, word, i+1)
-		|| exist(board, y-1, x, word, i+1);
-	board[y][x] ^= 256;
-	return exist;
-}
+    public boolean exist(char[][] board, String word) {
+        height = board.length;
+        width = board[0].length;
+        char[] charArray = word.toCharArray();
+
+        return findWord(board, charArray, word);
+    }
+
+    public boolean findWord(char[][] board, char[] charArray, String word) {
+        for (int i = 0; i < height; i++) {
+            for (int j = 0; j < width; j++) {
+                if (board[i][j] == charArray[0]) {
+                    backtracking(i, j, 0, word, board);
+                    if (isPossible) return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public void backtracking(int x,
+                             int y,
+                             int index,
+                             String target,
+                             char[][] board) {
+        if (index == target.length()) {
+            isPossible = true;
+            return;
+        }
+
+        if (x < 0 || y < 0 || x >= height || y >= width) return;
+
+        if (board[x][y] == target.charAt(index)) {
+            board[x][y] ^= 256;
+            backtracking(x + 1, y, index + 1, target, board);
+            backtracking(x, y + 1, index + 1, target, board);
+            backtracking(x - 1, y, index + 1, target, board);
+            backtracking(x, y - 1, index + 1, target, board);
+            board[x][y] ^= 256;
+        }
+    }
 }
